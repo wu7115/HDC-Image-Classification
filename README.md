@@ -66,7 +66,7 @@ To compare, we trained a **traditional transfer learning model** using the same 
 | 9     | 1.0000        | 0.9820       | 0.0009 | 0.0399  |
 | 10    | 1.0000        | 0.9810       | 0.0008 | 0.0399  |
 
-We can tell that **traditional transfer learning achieves similar accuracy, but requires 10 epochs to converge**, whereas **HDC-based classification achieves nearly the same accuracy within just 6 epochs**. Moreover, the **single-pass fit is already highly effective**, making HDC a promising lightweight alternative.
+We can tell that **traditional transfer learning achieves similar accuracy, and converges even faster***. However, the **single-pass fit is already highly effective**, making HDC a promising lightweight alternative.
 
 ### Memory Efficiency Comparison
 - **If you compare only the classifier** → **HDC consumes less memory** because it stores **only a few hypervectors instead of millions of parameters**.
